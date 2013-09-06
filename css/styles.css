@@ -24,6 +24,18 @@ body {
 	background-size:100%;
 }
 
+img {
+	width: 100%;
+	margin: 20px 0;
+	padding: 0;
+}
+
+.container h2 {
+	font-weight: bold;
+	font-size: 250%;
+	margin-top: 2em;
+}
+
 .head {
 	margin-top: 10em;
 }
