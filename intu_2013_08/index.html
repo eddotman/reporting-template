@@ -1,0 +1,163 @@
+<!doctype html>
+
+<head>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+	<div class="jumbotron text-center head bg-none">
+		<img src="../img/logo_sc.png"> <img src="../img/intuit_logo.gif">
+		<h1>Sponsors Report: Intuit</h1>
+		<h3>August 2013</h3>
+	</div>
+
+	<div class="container">
+		<img src="../img/discuss.jpg">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Objective</h2>
+				<hr>
+				<p>
+				In partnership with Intuit, Startup Canada has worked to deliver top-tier media coverage and to generate a measurable increase to social media engagement, impressions, and shares. The intent is to produce public relations and social media content that enables both parties to grow brand awareness by demonstrating unique insights into how best to boost entrepreneurship in Canada.
+				</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Volunteer Efforts</h2>
+				<hr>
+				<div class="text-center">
+					<canvas id="Chart1" class="chart" width="500" height="300"></canvas>
+				</div>
+				<div class="caption">
+						<em>Monthly Volunteer Hours</em> - Volunteer hours categorized by project.
+				</div>
+				<p>
+				Startup Canada recently added eighteen members to its team in the latest round of hiring. At present, Startup Canada is working on numerous initiatives, including PIVOT Magazine, 1000 Startups, and #StartupChats.
+				</p>
+			</div>
+		</div>
+		<img src="../img/social.jpg">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Highlights</h2>
+				<hr>
+				<div class="vid">
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/GoGe_voYGKg" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="caption">
+						<em>Interviews</em> - Interviews conducted for the Hiring Campaign.
+				</div>
+				<p>
+				This video (above) shows some of the highlights from the interviews conducted by Startup Canada for the Hiring Campaign in partnership with Intuit. Below, a recording of the Google+ Hangout is provided. 
+				</p>
+				<div class="vid">
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/I23li-w5iBk" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="caption">
+						<em>Google Hangout</em> - Google+ Hangout conducted for the Hiring Campaign.
+				</div>
+				<p>
+				Via the #StartupChats Twitter program, over 92 000 impressions were made on Twitter during the "Cost of Doing Business" session. The Twitter interactions are summarized on <a href="http://storify.com/StartupCanada/the-cost-of-doing-business-financial-consideration ">Storify</a>.
+				</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Impact Analysis</h2>
+				<hr>
+				<div class="text-center">
+					<canvas id="Chart3" class="chart" width="500" height="300"></canvas>
+				</div>
+				<div class="caption">
+						<em>Cumulative Social Reach</em> - Cumulative impressions via Startup Canada's Facebook posts (green) and PIVOT Magazine (blue) over the past four weeks.
+				</div>
+				<p>
+				Through posts on Facebook and articles published on PIVOT magazine, a consistent growth of impact has been maintained over the past four weeks. These metrics are an aggregate of Facebook "likes," comments, pageviews on PIVOT, tweets, and retweets.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Social Milestones</h2>
+				<hr>
+				<table class="table table-striped">
+					<thead><tr><th>Network</th><th>Impact</th><th>Last Month Comparison</th></tr></thead>
+					<tbody>
+						<tr><td>Facebook</td><td>23 500 followers</td><td> +1015</td></tr>
+						<tr><td>Twitter</td><td>2 320 likes</td><td> +67</td></tr>
+						<tr><td>LinkedIn</td><td>1 708 members</td><td>+14</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Summary</h2>
+				<hr>
+				<p>
+				Startup Canada and Intuit have worked together to provide a number of venues for supporting Canadian entrepreneurship. This was accomplished on a diverse array of platforms, including Twitter, Facebook, PIVOT, Google+, and Youtube. Quantifiable outcomes were attained through these efforts, and the impact has reached tens of thousands of people.
+				</p>
+			</div>
+		</div>
+		<img src="../img/crowd.jpg">
+	</div>
+
+
+	<div class="row">
+			<div class="col-lg-12 foot text-center">
+				<p>&copy; Startup Canada</p>
+			</div>
+		</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="../js/Chart.min.js"></script>
+	<script>
+		$(document).ready( function() {
+
+			var ctx1 = $("#Chart1").get(0).getContext("2d");
+			var ctx3 = $("#Chart3").get(0).getContext("2d");
+			var Chart1 = new Chart(ctx1);
+			var Chart3 = new Chart(ctx3);
+	
+
+			var data1 = {
+				labels : ["Communications","Gov't Relations","Finance"],
+				datasets : [
+					{
+						fillColor : "rgba(220,50,50,0.5)",
+						strokeColor : "rgba(220,50,50,1)",
+						data : [0.02, 7, 3]
+					},
+				]
+			};
+
+
+			var data3 = {
+				labels : ["Week 1","Week 2","Week 3","Week 4"],
+				datasets : [
+					{
+						fillColor : "rgba(80,220,80,0.5)",
+						strokeColor : "rgba(80,220,80,1)",
+						pointColor : "rgba(80,220,80,1)",
+						pointStrokeColor : "#fff",
+						data : [1922, 1922+1137, 1922+1137+2446, 1922+1137+2446+1308]
+					},
+					{
+						fillColor : "rgba(80,80,205,0.5)",
+						strokeColor : "rgba(80,80,205,1)",
+						pointColor : "rgba(80,80,205,1)",
+						pointStrokeColor : "#fff",
+						data : [699, 699+286, 699+286+431, 699+286+431+67]
+					}
+				]
+			};
+
+			new Chart(ctx1).Bar(data1);
+			new Chart(ctx3).Line(data3);
+		});
+	</script>
+</body>

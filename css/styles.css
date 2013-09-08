@@ -12,10 +12,11 @@ html, body, p, h1, h2, h3 {
 
 p {
 	font-size: 150%;
+	margin: 35px 0;
 }
 
 th {
-	font-size: 150%;
+	font-size: 100%;
 }
 
 img {
@@ -25,6 +26,10 @@ img {
 	padding: 0;
 }
 
+table {
+	font-size: 110%;
+}
+
 .container h2 {
 	font-weight: bold;
 	font-size: 250%;
@@ -32,7 +37,14 @@ img {
 }
 
 .head img {
-	width: 400px;
+	display: inline;
+	width: 200px;
+}
+
+.vid {
+	width: 560px;
+	display: block;
+	margin: 15px auto;
 }
 
 .foot {
@@ -49,6 +61,12 @@ img {
 	overflow: hidden;
 	text-align: center;
 	margin: 15px;
+}
+
+.caption {
+	margin: 15px auto;
+	width: 550px;
+	font-size: 100%;
 }
 
 .bg-none {
