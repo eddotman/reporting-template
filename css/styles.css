@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,300);
 
 html, body {
 	width: 100%;
@@ -10,7 +10,20 @@ html, body, p, h1, h2, h3 {
 	font-weight: 300;
 }
 
-p {
+h3 {
+	background: #232323;
+	color: #ffffff;
+	width: 100%;
+	padding: 15px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+strong {
+	font-weight: 700;
+}
+
+p, li {
 	font-size: 150%;
 	margin: 35px 0;
 }
@@ -20,9 +33,9 @@ th {
 }
 
 img {
-	width: 80%;
+	width: 100%;
 	display: block;
-	margin: 20px auto;
+	margin: 10px auto;
 	padding: 0;
 }
 
@@ -36,21 +49,33 @@ table {
 	margin-top: 2em;
 }
 
-.head img {
+.head img, .foot img {
 	display: inline;
 	width: 200px;
 }
 
-.vid {
-	width: 560px;
+.vid-big {
+	width: 440px;
 	display: block;
-	margin: 15px auto;
+	margin: 15px 0;
+}
+
+.vid-container {
+	margin: 0 auto;
+	width: 880px;
+	text-align: center;
+}
+
+.vid-small {
+	width: 218px;
+	display: block;
+	margin: 15px 0;
 }
 
 .foot {
 	width:100%;
 	padding: 30px;
-	padding-top:12em;
+	padding-top:8em;
 	margin-top: 8em;
 	background: #252525;
 	color: #ffffff;
