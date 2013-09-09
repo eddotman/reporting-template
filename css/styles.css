@@ -5,18 +5,23 @@ html, body {
 	height: 100%;
 }
 
+body {
+	margin-top: 3em;
+}
+
 html, body, p, h1, h2, h3 {
 	font-family: "Roboto", "Arial", "sans serif";
 	font-weight: 300;
 }
 
 h3 {
-	background: #232323;
-	color: #ffffff;
+	background: #f9f9f9;
+	color: #000000;
 	width: 100%;
 	padding: 15px;
 	margin: 10px 0;
 	text-align: center;
+	border-radius: 8px;
 }
 
 strong {
@@ -41,6 +46,10 @@ img {
 
 table {
 	font-size: 110%;
+}
+
+.nav a {
+	color: #000000;
 }
 
 .container h2 {
@@ -72,9 +81,16 @@ table {
 	margin: 15px 0;
 }
 
+.img-bordered {
+	border: #cccccc 5px solid;
+	height: 250px;
+	width: 350px;
+}
+
 .foot {
 	width:100%;
 	padding: 30px;
+	margin: 0;
 	padding-top:8em;
 	margin-top: 8em;
 	background: #252525;
@@ -90,7 +106,7 @@ table {
 
 .caption {
 	margin: 15px auto;
-	width: 550px;
+	width: 600px;
 	font-size: 100%;
 }
 
