@@ -9,6 +9,7 @@ body {
 	margin-top: 3em;
 }
 
+
 html, body, p, h1, h2, h3 {
 	font-family: "Roboto", "Arial", "sans serif";
 	font-weight: 300;
@@ -50,6 +51,10 @@ img {
 
 table {
 	font-size: 110%;
+}
+
+.row {
+	margin: 0;
 }
 
 .nav a {
@@ -112,6 +117,10 @@ table {
 	margin: 15px auto;
 	width: 600px;
 	font-size: 100%;
+}
+
+.small-img {
+	width: 150px;
 }
 
 .bg-none {
