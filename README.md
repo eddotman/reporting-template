@@ -16,7 +16,7 @@ Technical Details
 
 The template for each report is built on [Twitter Bootstrap](http://getbootstrap.com), which is an open source CSS framework. Custom styles are contained in `/css/styles.css`. 
 
-Javascript is handled using [JQuery](http://jquery.org) and [ChartJS](http://chartjs.org). ChartJS's documentation website has very straightforward instructions detailing how to use their chart objects.
+Javascript is handled using [JQuery](http://jquery.com) and [ChartJS](http://chartjs.org). ChartJS's documentation website has very straightforward instructions detailing how to use their chart objects.
 
 Deploying
 ---------
