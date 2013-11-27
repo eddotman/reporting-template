@@ -138,3 +138,7 @@ table {
 .bg-none {
 	background: rgba(0,0,0,0);
 }
+
+.indent {
+	padding-left:15px;
+}
