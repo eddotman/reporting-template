@@ -96,6 +96,10 @@ table {
 	width: 350px;
 }
 
+.bordered {
+	border: #cccccc 5px solid;
+}
+
 .img-big {
 	height: 380px;
 	width: 500px;
